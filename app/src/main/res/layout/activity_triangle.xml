@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yardfon.geometry.Triangle"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Triangle"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/tra"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="สามเหลี่ยม(Triangle)"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         รูปสามเหลี่ยม(triangle) เป็นหนึ่งในร่างพื้นฐานในเรขาคณิต คือรูปหลายเหลี่ยมซึ่งมี หรือจุดยอด และมี 3 ด้านหรือขอบที่เป็นส่วนของเส้นตรง
+        ในเรขาคณิตแบบยุคลิด จุด 3 จุดใดๆ ที่ไม่อยู่ในเส้นตรงเดียวกัน จะสามารถสร้างรูปสามเหลี่ยมได้เพียงรูปเดียว และเป็นรูปที่อยู่บนระนาบเดียว (เช่นระนาบสองมิติ)"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/stra"/>
+
+</LinearLayout>

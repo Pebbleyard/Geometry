@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yardfon.geometry.Circle"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Circle"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/circle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="รูปวงกลม (circle)"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          วงกลม คือ รูปร่างทางเรขาคณิตรูปแบบหนึ่ง เป็นรูปปิด ไม่มีมุม สามารถวาดได้โดยกำหนดจุดศูนย์กลางขึ้นมา 1 จุด จากนั้นจึงลากเส้นให้มีระยะห่างจากจุดนี้เท่ากันโดยตลอด วนรอบจุดศูนย์กลางจนกลับมาถึงจุดเริ่มต้น โดยระยะห่างจากจุดศูนย์กลางนนี้ชื่อเรียกว่า “รัศมี”"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/scircle"/>
+
+
+</LinearLayout>

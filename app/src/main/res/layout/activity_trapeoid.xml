@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yardfon.geometry.Trapeoid"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Trapeoid"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/tr"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="สี่เหลี่ยมคางหมู(Trapeoid)"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          รูปสี่เหลี่ยมด้านขนานที่มีด้านขนานกันเพียงคู่เดียวส่วนพจนานุกรมศัพท์วิทยาศาสตร์ คณิตศาสตร์ และเทคโนโลยี ของสถาบันส่งเสริมการสอนวิทยาศาสตร์และเทคโนโลยี ได้ให้คำนิยามไว้ว่า รูปสี่เหลี่ยมใด ๆ ที่มีด้านตรงข้ามขนานกันคู่หนึ่ง และคู่เดียวเท่านั้น"
+
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/str"/>
+
+</LinearLayout>
